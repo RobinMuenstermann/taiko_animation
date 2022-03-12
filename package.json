@@ -1,0 +1,13 @@
+{
+  "name": "gauge-taiko-template",
+  "description": "Starter template for writing JavaScript tests for Gauge",
+  "scripts": {
+    "test": "gauge run specs/",
+    "test-with-wait": " gauge run -v specs/animiation-with-explicit-wait.spec",
+    "test-animation-fails": " gauge run -v specs/animation-fails.spec",
+    "test-animation-fails-headless": " gauge run -v specs/animation-fails.spec --env headless"
+  },
+  "dependencies": {
+    "taiko": "latest"
+  }
+}
