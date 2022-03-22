@@ -1,0 +1,18 @@
+# User opens dialog and closes it
+* When user clicks "with footer"
+* When user clicks "Option 1"
+* When user clicks "confirm"
+* Then page contains "Are you confirm to chose Option 1 ?"
+* When user clicks "OK"
+
+# User opens dialog and closes it with wait
+* Wait for "0.3" seconds
+* When user clicks "with footer"
+* Wait for "0.3" seconds
+* When user clicks "Option 1"
+* Wait for "0.3" seconds
+* When user clicks "confirm"
+* Wait for "0.3" seconds
+* Then page contains "Are you confirm to chose Option 1 ?"
+* Wait for "0.3" seconds
+* When user clicks "OK"

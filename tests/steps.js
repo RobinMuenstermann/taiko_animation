@@ -5,6 +5,7 @@ const {
     text,
     waitFor,
     evaluate,
+    $,
 } = require('taiko');
 const assert = require("assert");
 const headless = process.env.headless_chrome.toLowerCase() === 'true';

@@ -6,7 +6,11 @@
     "test-with-wait": " gauge run -v specs/animation-with-explicit-wait.spec",
     "test-animation-fails": " gauge run -v specs/animation-fails.spec",
     "test-animation-fails-headless": " gauge run -v specs/animation-fails.spec --env headless",
-    "smart-click": " gauge run -v specs/smart-animation.spec --env headless"
+    "smart-click": " gauge run -v specs/smart-animation.spec --env headless",
+
+    "test-repeated-fails": "gauge run -v specs/animation-fails-repeated.spec",
+    "test-repeated-proof-correctness": "gauge run -v specs/animation-fails-repeated.spec:78",
+    "test-repeated-fails-headless": "gauge run -v specs/animation-fails-repeated.spec  --env headless"
   },
   "dependencies": {
     "taiko": "latest"
